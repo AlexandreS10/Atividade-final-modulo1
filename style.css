@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  border-collapse: collapse;
+}
+
+#nav-bar {
+  background-color: rgba(177, 71, 32, 0.89);
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+#container {
+  background-color: white;
+  width: 80%;
+  height: 100%;
+  float: right;
+}
+.box-model {
+  padding: 15px;
+  margin-top: 65%;
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+  user-select: none;
+  color: white;
+  text-decoration: none;
+}
+#img {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  border: 5px solid rgba(177, 71, 32, 0.89);
+}
+.box2 {
+  padding: 15px;
+  margin-top: 20%;
+  text-align: left;
+}
+.list {
+  padding: 15px;
+  text-align: left;
+  font-size: 30px;
+  color: gray;
+}
+#nome {
+  color: rgb(94, 93, 93);
+  font-size: 40px;
+}
+#sobrenome {
+  color: rgba(177, 71, 32, 0.89);
+  font-size: 40px;
+}
+#dados {
+  color: rgb(94, 93, 93);
+  font-size: medium;
+}
+#dados2 {
+  color: rgba(177, 71, 32, 0.89);
+  font-size: medium;
+}
+
+#descricao {
+  color: rgb(94, 93, 93);
+  padding: 20px;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: left;
+}
+.btn {
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+}
+#imagens {
+  width: 30px;
+  height: 30px;
+  border-radius: 200px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
