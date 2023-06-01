@@ -1,46 +1,40 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
 
-div {
-  display: inline-block;
+.container{
+  display: flex;
+   height: 100vh; 
 }
-p {
-  margin-top: 10px;
+.perfilInfo{
+  width: 20vw;
+  background-color: rgba(177, 71, 32, 0.89);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.secaoImagem {
-  margin-top: 150px;
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid rgba(177, 71, 32, 0.89);
+}
+
+#botoes{
   text-align: center;
 }
-.blocoNavegacao {
-  background-color: rgba(177, 71, 32, 0.89);
-  width: 20vw;
-  height: 100vh;
-}
-.btn {
+.btn,p{
   cursor: pointer;
   user-select: none;
   color: white;
   text-decoration: none;
   margin-top: 10px;
 }
-#img {
-  width: 50%;
-
-  border-radius: 50%;
-  border: 5px solid rgba(177, 71, 32, 0.89);
-}
-.box2 {
-  padding: 15px;
-  text-align: left;
-}
-.list {
-  margin-left: 10px;
-  padding: 15px;
-  text-align: left;
-  font-size: 30px;
-  color: gray;
+.dadosPessoais{
+  align-self: center;
+  margin-left: 30px;
 }
 #nome {
   color: rgb(94, 93, 93);
@@ -50,35 +44,22 @@ p {
   color: rgba(177, 71, 32, 0.89);
   font-size: 40px;
 }
-#dados {
-  color: rgb(94, 93, 93);
-  font-size: medium;
-}
 #botaoEmail {
   color: rgba(177, 71, 32, 0.89);
   font-size: medium;
   text-decoration: none;
 }
-#objetivo {
-  color: rgb(94, 93, 93);
-  font-size: 30px;
-  width: 500px;
-  margin-left: 40px;
-}
-
-#descricao {
-  color: rgb(94, 93, 93);
-  font-size: 20px;
-  margin-left: 10px;
-  margin-top: 80px;
-  margin-bottom: 20px;
-  text-align: center;
-}
 #imagens {
+  border: none;
   width: 30px;
   height: 30px;
-  border-radius: 200px;
-  margin-top: 10px;
-  margin-right: 10px;
+  border-radius: 50%;
   margin-left: 10px;
+}
+#descricao,ul,ol{
+  color: rgb(94, 93, 93);
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
